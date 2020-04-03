@@ -1,4 +1,12 @@
+#FIRST 
 ori_list = [3, 5, 6, 8] 
 print("The original list : " + str(ori_list))  
 final_list = [3, 5, *range(6), 6, 8] 
 print("The list after adding range elements : " + str(final_list))
+#SECOND
+a=(5,4,10,11,20,52,58)
+print(a[0:4])
+#THIRD
+menu={1:'chicken tikka',2:'paneer bhurji',3:'potato chilly'}
+del menu[2]
+print(menu)
